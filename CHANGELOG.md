@@ -50,7 +50,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.0.3"></a>
-## [1.0.3](https://github.com/haysclark/gatsby-starter-casper/compare/v1.0.2...v1.0.3) (2018-01-10)
+## [1.0.3](https://github.com/haysclark/gatsby-starter-casper/compare/v1.0.2...v1.0.3) (2018-01-10) 
 
 
 ### Bug Fixes
