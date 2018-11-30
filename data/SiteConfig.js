@@ -11,7 +11,7 @@ module.exports = {
   siteDescription:
     "A blog about software and related technology topics.", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "https://matthew-brown-blog.netlify.com/images/blog-cover2.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "/images/blog-cover-2.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
