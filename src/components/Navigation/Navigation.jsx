@@ -56,7 +56,7 @@ class Navigation extends Component {
             <span className="hidden">Close</span>
           </a>
           <ul>{navItems.map(mapToListParts)}</ul>
-          <SubscribeButton url={config.siteRss} />
+          {/* <SubscribeButton url={config.siteRss} /> */}
         </div>
         <span className="nav-cover" />
       </div>
