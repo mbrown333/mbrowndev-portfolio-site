@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import AdSense from 'react-adsense';
 import Helmet from "react-helmet";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -136,10 +135,6 @@ class PostTemplate extends React.Component {
                 </PostFooter>
               </PostFormatting>
             </MainContent>
-            <AdSense.Google
-              client='ca-pub-6544681979376259'
-              slot='7806394673'
-            />
             <ReadNext next={getNextData()} prev={getPrevData()} />
 
             {/* The tiny footer at the very bottom */}

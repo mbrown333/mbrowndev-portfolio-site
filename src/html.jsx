@@ -2,6 +2,7 @@
 /* eslint import/extensions:"off" */
 /* eslint global-require:"off" */
 import React from "react";
+import AdSense from 'react-adsense';
 import favicon from "./favicon.png";
 
 export default class HTML extends React.Component {
@@ -32,6 +33,10 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <AdSense.Google
+            client='ca-pub-6544681979376259'
+            slot='7806394673'
+          />
         </head>
         <body>
           <div
