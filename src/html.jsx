@@ -5,6 +5,14 @@ import React from "react";
 import favicon from "./favicon.png";
 
 export default class HTML extends React.Component {
+
+  componentDidMount() {
+    (adsbygoogle = window.adsbygoogle || []).push({ // eslint-disable no-undef
+      google_ad_client: "ca-pub-6544681979376259", 
+      enable_page_level_ads: true
+    });
+  }
+
   render() {
     return (
       <html lang="en">
@@ -32,7 +40,6 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <script dangerouslySetInnerHTML={{__html: '(window.adsbygoogle = window.adsbygoogle || []).push({});'}}></script>
         </head>
         <body>
           <div
