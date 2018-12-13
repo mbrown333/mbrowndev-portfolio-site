@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
+import AdSense from 'react-adsense';
 import Helmet from "react-helmet";
 import { Link } from "react-scroll";
 import PostListing from "../components/PostListing/PostListing";
@@ -112,6 +113,9 @@ class IndexTemplate extends React.Component {
                 {/* PostListing component renders all the posts */}
                 <PostListing postEdges={nodes} postAuthors={authorsEdges} />
               </PaginatedContent>
+              <AdSense.Google
+                client='ca-pub-6544681979376259'
+              />
             </div>
             {/* The tiny footer at the very bottom */}
             <Footer
