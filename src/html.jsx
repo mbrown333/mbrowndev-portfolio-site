@@ -5,14 +5,6 @@ import React from "react";
 import favicon from "./favicon.png";
 
 export default class HTML extends React.Component {
-
-  componentDidMount() {
-    (adsbygoogle = window.adsbygoogle || []).push({ // eslint-disable no-undef
-      google_ad_client: "ca-pub-6544681979376259", 
-      enable_page_level_ads: true
-    });
-  }
-
   render() {
     return (
       <html lang="en">
