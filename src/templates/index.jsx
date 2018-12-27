@@ -20,14 +20,6 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
 
 class IndexTemplate extends React.Component {
-  constructor(props) {
-    super(props);
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-6544681979376259",
-        enable_page_level_ads: true
-    });
-  }
-
   state = {
     menuOpen: false
   };

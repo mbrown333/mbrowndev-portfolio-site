@@ -60,6 +60,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-6544681979376259`
+      },
+    },
+    {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: config.themeColor
