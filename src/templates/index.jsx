@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import React from "react";
-import AdSense from 'react-adsense';
 import Helmet from "react-helmet";
 import { Link } from "react-scroll";
 import PostListing from "../components/PostListing/PostListing";
@@ -21,6 +20,14 @@ import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
 
 class IndexTemplate extends React.Component {
+  constructor(props) {
+    super(props);
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-6544681979376259",
+        enable_page_level_ads: true
+    });
+  }
+
   state = {
     menuOpen: false
   };
@@ -101,13 +108,6 @@ class IndexTemplate extends React.Component {
                   <span className="hidden">Scroll Down</span>
                 </Link>
               </MainHeader>
-              <AdSense.Google
-                client='ca-pub-6544681979376259'
-                slot='7806394673'
-                style={{ display: 'block' }}
-                format='auto'
-                responsive='true'
-              />
               <PaginatedContent
                 page={page}
                 pages={pages}
@@ -120,13 +120,6 @@ class IndexTemplate extends React.Component {
                 <PostListing postEdges={nodes} postAuthors={authorsEdges} />
               </PaginatedContent>
             </div>
-            <AdSense.Google
-              client='ca-pub-6544681979376259'
-              slot='7806394673'
-              style={{ display: 'block' }}
-              format='auto'
-              responsive='true'
-            />
             {/* The tiny footer at the very bottom */}
             <Footer
               copyright={config.copyright}
