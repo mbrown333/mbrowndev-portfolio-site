@@ -10,8 +10,6 @@ tags:
     - other
 ---
 
-# Book Review: The Passionate Programmer
-
 I recently read the book [The Passionate Programmer: Creating a Remarkable Career in Software Development (Pragmatic Life)](https://www.amazon.com/gp/product/1934356344/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356344&linkCode=as2&tag=mbrowndev-20&linkId=3c419d3d5695017792ad3ac8fa7f0287)![](//ir-na.amazon-adsystem.com/e/ir?t=mbrowndev-20&l=am2&o=1&a=1934356344) by Chad Fowler. 
 
 I'd highly recommend reading it to any software developer. Fowler provides an excellent collection of tips and an approach for improving any software development career. Check it out on [Amazon](https://www.amazon.com/gp/product/1934356344/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1934356344&linkCode=as2&tag=mbrowndev-20&linkId=3c419d3d5695017792ad3ac8fa7f0287). 
